@@ -18,7 +18,7 @@
     "travis"
   ],
   "license": "MIT",
-  "main": "src/",
+  "main": "./",
   "private": false,
   "repository": {
     "type": "git",
