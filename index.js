@@ -50,18 +50,16 @@ function postImages(cb) {
 
 function run(args) {
   // const test = execa("npm", ["run", test], { stdio: "inherit" });
-  return execa("yarn", [...args], { stdio: "inherit" })
-    .then(x => console.log("then: ", x))
-    .catch(e => {
-      console.log("catch: ", e, e.code);
-      if (!repo || !pr) {
-        process.exit(e.code);
-      }
+  return execa("yarn", [...args], { stdio: "inherit" }).catch(e => {
+    // console.log("catch: ", e, e.code);
+    if (!repo || !pr) {
+      process.exit(e.code);
+    }
 
-      postImages(() => {
-        process.exit(e.code);
-      });
+    postImages(() => {
+      process.exit(e.code);
     });
+  });
 }
 
 /*
