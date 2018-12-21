@@ -1,8 +1,10 @@
 {
   "name": "fail-to-pr",
+  "description": "Post the relevant part of your broken CI build to the PR that triggered it",
+  "version": "0.0.0-development",
   "author": "pomber",
   "bin": {
-    "test-output-to-pr": "./index.js"
+    "fail-to-pr": "./index.js"
   },
   "files": [
     "./index.js"
