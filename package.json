@@ -4,10 +4,10 @@
   "version": "0.0.0-development",
   "author": "pomber",
   "bin": {
-    "fail-to-pr": "./index.js"
+    "fail-to-pr": "./cli.js"
   },
   "files": [
-    "./index.js"
+    "cli.js"
   ],
   "keywords": [
     "ci",
@@ -18,7 +18,7 @@
     "travis"
   ],
   "license": "MIT",
-  "main": "./",
+  "main": "./cli.js",
   "private": false,
   "repository": {
     "type": "git",
