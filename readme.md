@@ -14,7 +14,7 @@ Currently it handles only a very specific use case: failed [cypress-image-snapsh
 1. Install it:
 
 ```bash
-$ yarn add --dev fail-to-test
+$ yarn add --dev fail-to-pr
 ```
 
 2. Wrap your test script in package.json:
