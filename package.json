@@ -2,10 +2,10 @@
   "name": "fail-to-pr",
   "author": "pomber",
   "bin": {
-    "test-output-to-pr": "src/index.js"
+    "test-output-to-pr": "./index.js"
   },
   "files": [
-    "src/index.js"
+    "./index.js"
   ],
   "keywords": [
     "ci",
