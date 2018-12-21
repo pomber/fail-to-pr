@@ -1,0 +1,38 @@
+{
+  "name": "fail-to-pr",
+  "author": "pomber",
+  "bin": {
+    "test-output-to-pr": "src/index.js"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "ci",
+    "github",
+    "test",
+    "snapshot",
+    "pr",
+    "travis"
+  ],
+  "license": "MIT",
+  "main": "src/",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pomber/fail-to-pr.git"
+  },
+  "scripts": {
+    "test": "true",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "execa": "^1.0.0",
+    "glob": "^7.1.3",
+    "imgur": "^0.3.1",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.1"
+  }
+}
